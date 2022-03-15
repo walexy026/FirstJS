@@ -4,8 +4,17 @@ h1 {
   background-color: #dbc4ff;
 }
 
-button {
-  text-align: center;
-  margin-left: 35vw;
+div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div button {
+  background: blue;
+  border: 1px solid blue;
 }
 /*# sourceMappingURL=styles.css.map */

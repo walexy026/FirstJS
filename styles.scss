@@ -3,7 +3,12 @@ h1{
     color: red;
     background-color: rgb(219, 196, 255);
 }
-button{
-    text-align: center;
-    margin-left: 35vw;
+div{
+    display: flex;
+    justify-content: center;
+    button{
+        
+        background: blue;
+        border: 1px solid blue;
+    }
 }
